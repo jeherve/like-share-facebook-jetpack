@@ -2,7 +2,7 @@
 Contributors: jeherve
 Tags: WordPress.com, Jetpack, sharing, facebook, like
 Requires at least: 4.3
-Tested up to: 4.3.1
+Tested up to: 4.4.2
 Stable tag: 1.0
 
 Add a FB Like & Share button to the Jetpack Sharing module.
