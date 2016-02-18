@@ -1,8 +1,8 @@
 <?php
 /*
- * Plugin Name: FB Like & Share button for Jetpack
+ * Plugin Name: FB Like button for Jetpack
  * Plugin URI: http://wordpress.org/plugins/jetpack/
- * Description: Add a FB Like & Share button to the Jetpack Sharing module.
+ * Description: Add a FB Like button to the Jetpack Sharing module.
  * Author: Jeremy Herve
  * Version: 1.0
  * Author URI: http://jeremy.hu
@@ -45,7 +45,7 @@ class Fb_Like_Share_Button {
 	// Prompt to install Jetpack
 	public function install_jetpack() {
 		echo '<div class="error"><p>';
-		printf( __( 'To use the FB Like & Share button for Jetpack, you\'ll need to install and activate <a href="%1$s">Jetpack</a> first, and <a href="%2$s">activate the Sharing module</a>.', 'jeherve_fb_like_jetpack' ),
+		printf( __( 'To use the FB Like button for Jetpack, you\'ll need to install and activate <a href="%1$s">Jetpack</a> first, and <a href="%2$s">activate the Sharing module</a>.', 'jeherve_fb_like_jetpack' ),
 		'plugin-install.php?tab=search&s=jetpack&plugin-search-input=Search+Plugins',
 		'admin.php?page=jetpack_modules'
 		);

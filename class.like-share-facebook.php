@@ -13,7 +13,7 @@ class Fb_Like_Share extends Share_Twitter {
 	}
 
 	public function get_name() {
-		return __( 'Facebook Like & Share', 'jeherve_fb_like_jetpack' );
+		return __( 'Facebook Like', 'jeherve_fb_like_jetpack' );
 	}
 
 	public function display_footer() { ?>
@@ -30,7 +30,7 @@ class Fb_Like_Share extends Share_Twitter {
 		$display = '';
 
 		$display .= sprintf(
-			'<div id="fb-root"></div><div class="fb-like" data-href="%s" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>',
+			'<div id="fb-root"></div><div class="fb-like" data-href="%s" data-layout="button_count" data-action="like" data-show-faces="true"></div>',
 			esc_url( get_permalink( $post->ID ) )
 		);
 
